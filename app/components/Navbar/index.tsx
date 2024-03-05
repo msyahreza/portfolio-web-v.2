@@ -2,10 +2,26 @@
 
 "use client"; // Menandai komponen sebagai Client Component
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Navbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+	const [scrolling, setScrolling] = useState(false);
+
+	useEffect(() => {
+		function handleScroll() {
+			if (window.scrollY > 0) {
+				setScrolling(true);
+			} else {
+				setScrolling(false);
+			}
+		}
+
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
 
 	const toggleMobileMenu = () => {
 		setMobileMenuOpen(!mobileMenuOpen);
@@ -13,7 +29,11 @@ export default function Navbar() {
 
 	return (
 		<div className="mb-32">
-			<nav className="md:mx-40 text-secondary-color border border-black md:mx-40 sm:py-2.5 text-secondary-color fixed w-auto top-0 left-0">
+			<nav
+				className={`md:mx-40 text-secondary-color border border-black  md:mx-40 sm:py-2.5 text-secondary-color fixed w-auto top-0 left-0 ${
+					scrolling ? "bg-black" : ""
+				}`}
+			>
 				<div className="container flex flex-wrap justify-between">
 					<div className="flex md:order-2">
 						<button
