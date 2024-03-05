@@ -12,8 +12,8 @@ export default function Navbar() {
 	};
 
 	return (
-		<>
-			<nav className="bg-red text-secondary-color border border-black md:mx-40 sm:py-2.5 text-secondary-color fixed w-auto top-0 left-0">
+		<div className="mb-32">
+			<nav className="md:mx-40 text-secondary-color border border-black md:mx-40 sm:py-2.5 text-secondary-color fixed w-auto top-0 left-0">
 				<div className="container flex flex-wrap justify-between">
 					<div className="flex md:order-2">
 						<button
@@ -48,7 +48,7 @@ export default function Navbar() {
 							<li>
 								<a
 									href="Partners.html"
-									className="block py-2 pl-3 pr-4 text-xl rounded hover:bg-red text-secondary-color md:hover:bg-transparent md:hover:text-white md:p-0 text-amber-300"
+									className="block py-2 pl-3 pr-4 text-xl font-bold rounded hover:bg-red text-secondary-color md:hover:bg-transparent md:hover:text-white md:p-0 text-amber-300"
 								>
 									Home
 								</a>
@@ -56,7 +56,7 @@ export default function Navbar() {
 							<li>
 								<a
 									href="Partners.html"
-									className="block py-2 pl-3 pr-4 text-xl rounded hover:bg-red text-secondary-color md:hover:bg-transparent md:hover:text-white md:p-0 text-amber-300"
+									className="block py-2 pl-3 pr-4 text-xl font-bold rounded hover:bg-red text-secondary-color md:hover:bg-transparent md:hover:text-white md:p-0 text-amber-300"
 								>
 									About
 								</a>
@@ -64,7 +64,7 @@ export default function Navbar() {
 							<li>
 								<a
 									href="Partners.html"
-									className="block py-2 pl-3 pr-4 text-xl rounded hover:bg-red text-secondary-color md:hover:bg-transparent md:hover:text-white md:p-0 text-amber-300"
+									className="block py-2 pl-3 pr-4 text-xl font-bold rounded hover:bg-red text-secondary-color md:hover:bg-transparent md:hover:text-white md:p-0 text-amber-300"
 								>
 									Projects
 								</a>
@@ -72,7 +72,7 @@ export default function Navbar() {
 							<li>
 								<a
 									href="Partners.html"
-									className="block py-2 pl-3 pr-4 text-xl rounded hover:bg-red text-secondary-color md:hover:bg-transparent md:hover:text-white md:p-0 text-amber-300"
+									className="block py-2 pl-3 pr-4 text-xl font-bold rounded hover:bg-red text-secondary-color md:hover:bg-transparent md:hover:text-white md:p-0 text-amber-300"
 								>
 									Certificate
 								</a>
@@ -108,6 +108,6 @@ export default function Navbar() {
           </div>
         )} */}
 			</nav>
-		</>
+		</div>
 	);
 }
