@@ -5,8 +5,8 @@ import React from "react";
 
 export default function MainPage() {
 	return (
-		<div className="py-40">
-			<div className="mx-40 border border-black">
+		<div className="border-black sm:mx-5">
+			<div className="border border-black">
 				<div className="grid grid-cols-3">
 					<div className="col-span-2">
 						<h1 className="font-semibold text-secondary-color">Lorem Ipsum</h1>

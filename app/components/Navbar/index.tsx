@@ -28,9 +28,9 @@ export default function Navbar() {
 	};
 
 	return (
-		<div className="mb-32">
+		<div className="w-full mb-32 md:mb-32 sm:mb-32">
 			<nav
-				className={`md:mx-40 text-secondary-color border border-black  md:mx-40 sm:py-2.5 text-secondary-color fixed w-auto top-0 left-0 ${
+				className={`md:mx-40 text-secondary-color border border-black  md:mx-40 sm:py-30 text-secondary-color fixed w-9/12 top-0 left-0 sm:left-5 ${
 					scrolling ? "bg-black" : ""
 				}`}
 			>
