@@ -3,5 +3,5 @@
 import React from "react";
 
 export default function SecondPage() {
-	return <div className="">SecondPage</div>;
+	return <div className="max-w-screens-sm lg:mx-5">Second Page</div>;
 }

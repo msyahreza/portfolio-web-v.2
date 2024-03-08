@@ -1,5 +1,3 @@
-/** @format */
-
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -16,9 +14,9 @@ const config: Config = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
 			screens: {
-				sm: "360px",
-				md: "960px",
-				lg: "1440px",
+				sm: { 'max': "560px" },
+				md: { 'max': "720px" },
+				lg: { 'max': "1280px" },
 			},
 			colors: {
 				"secondary-color": "rgb(63, 79, 79)",
