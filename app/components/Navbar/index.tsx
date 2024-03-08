@@ -31,7 +31,7 @@ export default function Navbar() {
 	return (
 		<div className="w-full mb-32 lg:mb-32">
 			<nav
-				className={`xl:mx-40 text-secondary-color border border-black text-secondary-color fixed xl:w-9/12 top-0 left-0 xl:left-5 lg:px-5 lg:py-5 lg:backdrop-blur-md ${
+				className={`xl:mx-40 text-secondary-color text-secondary-color fixed xl:w-9/12 top-0 left-0 xl:left-5 lg:px-5 lg:py-5 lg:backdrop-blur-md ${
 					scrolling ? "backdrop-blur-md" : ""
 				}`}
 			>

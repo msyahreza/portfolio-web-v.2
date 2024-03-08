@@ -7,8 +7,8 @@ import React from "react";
 export default function MainPage() {
 	return (
 		<>
-			<div className="max-w-screens-sm lg:mx-5 xl:mx-44">
-				<div className="border border-black py-32 lg:py-10">
+			<div className="max-w-screens-sm mt-28 lg:mx-5 xl:mx-44 lg:mt-28">
+				<div className="py-32 pt-28 lg:py-10 lg:pt-28">
 					<div className="grid grid-cols-3 lg:flex lg:flex-col">
 						<div className="col-span-2 lg:order-3 lg:text-center justify-center align-middle">
 							<h1 className="font-semibold text-4xl lg:text-3xl text-secondary-color my-1.5">
@@ -86,9 +86,9 @@ export default function MainPage() {
 						</div>
 						<div className="flex justify-center lg:order-2 lg:my-8 col-span-1">
 							<Image
-								src="/image/logo/valorant-logo.svg"
+								src="/image/logo/sr-logo.svg"
 								alt="Profile Image"
-								width={264}
+								width={552}
 								height={552}
 								priority
 							/>
@@ -133,7 +133,7 @@ export default function MainPage() {
 					</div>
 				</div> */}
 			</div>
-			<div className="flex flex-col justify-end lg:float-none lg:left-none w-full">
+			<div className="flex flex-col justify-end mt-52 lg:float-none lg:left-none w-full">
 				<picture>
 					{/* Gambar untuk ukuran layar kecil */}
 					<source
