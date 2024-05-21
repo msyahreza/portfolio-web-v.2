@@ -2,9 +2,11 @@
 
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
 const nunito = Nunito({ subsets: ["latin"] });
+const pJakartaS = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -18,7 +20,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={nunito.className}>{children}</body>
+			<body className={pJakartaS.className}>{children}</body>
 		</html>
 	);
 }

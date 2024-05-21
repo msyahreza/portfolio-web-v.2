@@ -19,6 +19,7 @@ const config: Config = {
 				lg: { 'max': "1280px" },
 			},
 			colors: {
+				"primary-color": "#E3E3E3",
 				"secondary-color": "rgb(63, 79, 79)",
 				"third-color": "#A27B5C",
 			},

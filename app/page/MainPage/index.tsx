@@ -14,10 +14,10 @@ export default function MainPage() {
 							<h1 className="font-semibold text-4xl lg:text-3xl text-secondary-color my-1.5">
 								Lorem Ipsum
 							</h1>
-							<h2 className="font-extrabold text-5xl lg:text-6xl text-secondary-color mt-4">
+							<h2 className="font-bold text-5xl lg:text-6xl text-secondary-color mt-4">
 								The standard Lorem Ipsum
 							</h2>
-							<h3 className="font-semibold lg:text-2xl text-secondary-color lg:my-7 my-1.5">
+							<h3 className="font-medium lg:text-2xl text-secondary-color lg:my-7 my-1.5">
 								Fresh graduate bachelor degree of informatics at Amikom
 								Yogyakarta University. I was specialized at front-end web
 								developer and front-end flutter developer. I am very interested
