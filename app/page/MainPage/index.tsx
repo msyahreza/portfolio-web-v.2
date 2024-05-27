@@ -6,15 +6,16 @@ import React from "react";
 
 export default function MainPage() {
 	return (
-		<>
-			<div className="max-w-screens-sm mt-28 lg:mx-5 xl:mx-44 lg:mt-28">
-				<div className="py-32 pt-28 lg:py-10 lg:pt-28">
+		<div>
+			<div className="max-w-screens-sm p-14 lg:mx-5 xl:mx-44 lg:mt-28">
+				{/* <div className="py-32 pt-28 lg:py-10 lg:pt-28"> */}
+				<div>
 					<div className="grid grid-cols-3 lg:flex lg:flex-col">
 						<div className="col-span-2 lg:order-3 lg:text-center justify-center align-middle">
-							<h1 className="font-semibold text-4xl lg:text-3xl text-secondary-color my-1.5">
+							<h1 className="font-semibold text-4xl lg:text-3xl text-secondary-color my-1.5 sm:font-normal sm:text-sm">
 								Lorem Ipsum
 							</h1>
-							<h2 className="font-bold text-5xl lg:text-6xl text-secondary-color mt-4">
+							<h2 className="font-bold text-5xl lg:text-6xl text-secondary-color mt-4 sm:font-light">
 								The standard Lorem Ipsum
 							</h2>
 							<h3 className="font-medium lg:text-2xl text-secondary-color lg:my-7 my-1.5">
@@ -164,7 +165,7 @@ export default function MainPage() {
 					height={341}
 				/>
 			</div> */}
-		</>
+		</div>
 		// <div className="border-black sm:mx-5">
 		// 	<div className="border border-black">
 		// 		<div className="grid grid-cols-3">

@@ -9,10 +9,12 @@ import SecondPage from "./page/SecondPage";
 
 export default function Home() {
 	return (
-		<>
-			<Navbar />
-			<MainPage />
+		<div className="border-x-2 border-black mx-8">
+			{/* <Navbar /> */}
+			<div>
+				<MainPage />
+			</div>
 			<SecondPage />
-		</>
+		</div>
 	);
 }
